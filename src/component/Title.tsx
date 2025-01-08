@@ -1,4 +1,3 @@
-import React from 'react'
 import { TitleProps } from '../type/Type'
 
 const Title = ({title,index,setRotation,setIndex}:TitleProps) => {

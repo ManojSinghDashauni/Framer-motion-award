@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { pageData } from '../data/data'
 import {Image, Title} from './index'
 
