@@ -1,20 +1,16 @@
-import { Link, Route, Routes } from "react-router";
+import { Route, Routes } from "react-router";
 import { Home } from "./component";
+import HoverEffect from "./component/Hover/HoverEffect";
+import Navigation from "./component/Navigation";
 
 const App = () => {
   return (
     <div>
       <Routes>
+      <Route path="/" element={<Navigation />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/hover" element={<HoverEffect />} />
       </Routes>
-      <nav className="p-4 uppercase flex justify-center">
-        <Link
-          to="/home"
-          className="font-bold hover:text-red-400 font-serif"
-        >
-          stack nav
-        </Link>
-      </nav>
     </div>
   );
 };
