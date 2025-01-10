@@ -1,4 +1,4 @@
-import { HoverData } from "./HoverData";
+import { HoverData } from "../../data/HoverData";
 
 const HoverEffect = () => {
   return (

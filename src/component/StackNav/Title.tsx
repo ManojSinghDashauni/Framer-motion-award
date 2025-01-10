@@ -1,4 +1,4 @@
-import { TitleProps } from '../type/Type'
+import { TitleProps } from '../../type/StackNavType'
 
 const Title = ({title,index,setRotation,setIndex}:TitleProps) => {
   return (

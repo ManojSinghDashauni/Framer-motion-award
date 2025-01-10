@@ -3,7 +3,7 @@ import { Link } from "react-router"
 
 const Navigation = () => {
   return (
-         <nav className="w-screen h-screen p-4 uppercase flex flex-col justify-center items-center font-serif text-2xl">
+         <nav className="w-screen h-screen uppercase flex flex-col justify-center items-center font-serif text-2xl bg-yellow-100">
         <Link
           to="/home"
           className="font-bold hover:text-red-400"
@@ -15,6 +15,12 @@ const Navigation = () => {
           className="font-bold hover:text-red-400"
         >
           Hover Effect
+        </Link>
+        <Link
+          to="/trackingEyes"
+          className="font-bold hover:text-red-400"
+        >
+          Tracking Eyes
         </Link>
       </nav>
   )

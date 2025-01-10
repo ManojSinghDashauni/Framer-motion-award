@@ -1,5 +1,5 @@
 import cn from "classnames"
-import { ImageProps } from '../type/Type'
+import { ImageProps } from '../../type/StackNavType'
 
 const Image = ({url,active,rotationPosition}:ImageProps) => {
   return (
@@ -7,4 +7,4 @@ const Image = ({url,active,rotationPosition}:ImageProps) => {
   )
 }
 
-export default Image
+export default Image;

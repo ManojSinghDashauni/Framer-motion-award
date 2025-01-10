@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .text-container {
   &:hover {
     h1 {
@@ -10,6 +16,8 @@
   }
 }
 
+
+/* stack nav --start */
 #img {
   position: absolute;
   height: 60vh;
