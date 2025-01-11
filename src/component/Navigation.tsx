@@ -22,6 +22,12 @@ const Navigation = () => {
         >
           Tracking Eyes
         </Link>
+        <Link
+          to="/tilt"
+          className="font-bold hover:text-red-400"
+        >
+          Tilt Effect
+        </Link>
       </nav>
   )
 }

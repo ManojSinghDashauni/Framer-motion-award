@@ -6,4 +6,6 @@ import HoverEffect from "./Hover/HoverEffect";
 
 import TrackingEyes from "./TrackingEyes/TrackingEyes";
 
-export {Home,Image,Title,TrackingEyes,HoverEffect}
+import Tilt from "./TiltEffect/Tilt";
+
+export {Home,Image,Title,TrackingEyes,HoverEffect,Tilt}
