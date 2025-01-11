@@ -1,5 +1,3 @@
-import { easeIn } from "motion";
-import { easeInOut, motion } from "motion/react";
 import { useRef, useState } from "react"
 
 const Tilt = () => {
