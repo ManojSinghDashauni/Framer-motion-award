@@ -8,4 +8,6 @@ import TrackingEyes from "./TrackingEyes/TrackingEyes";
 
 import Tilt from "./TiltEffect/Tilt";
 
-export {Home,Image,Title,TrackingEyes,HoverEffect,Tilt}
+import Cursor from "./custom/Cursor";
+
+export {Home,Image,Title,TrackingEyes,HoverEffect,Tilt,Cursor}

@@ -28,6 +28,12 @@ const Navigation = () => {
         >
           Tilt Effect
         </Link>
+        <Link
+          to="/Cursor"
+          className="font-bold hover:text-red-400"
+        >
+          Custom Cursor
+        </Link>
       </nav>
   )
 }
