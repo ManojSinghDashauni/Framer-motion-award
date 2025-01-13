@@ -1,41 +1,20 @@
-import { Link } from "react-router"
-
+import { Link } from "react-router";
+import { NavLinks } from "../data/NavLinks";
 
 const Navigation = () => {
   return (
-         <nav className="w-screen h-screen uppercase flex flex-col justify-center items-center font-serif text-2xl bg-yellow-100">
+    <nav className="w-screen h-screen uppercase flex flex-col justify-center items-center font-serif text-2xl bg-yellow-100">
+      {NavLinks.map((item) => (
         <Link
-          to="/home"
+          key={item.id}
+          to={item.path}
           className="font-bold hover:text-red-400"
         >
-          stack nav
+          {item.Title}
         </Link>
-        <Link
-          to="/hover"
-          className="font-bold hover:text-red-400"
-        >
-          Hover Effect
-        </Link>
-        <Link
-          to="/trackingEyes"
-          className="font-bold hover:text-red-400"
-        >
-          Tracking Eyes
-        </Link>
-        <Link
-          to="/tilt"
-          className="font-bold hover:text-red-400"
-        >
-          Tilt Effect
-        </Link>
-        <Link
-          to="/Cursor"
-          className="font-bold hover:text-red-400"
-        >
-          Custom Cursor
-        </Link>
-      </nav>
-  )
-}
+      ))}
+    </nav>
+  );
+};
 
-export default Navigation
+export default Navigation;

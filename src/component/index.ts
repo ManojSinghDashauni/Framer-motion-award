@@ -10,4 +10,15 @@ import Tilt from "./TiltEffect/Tilt";
 
 import Cursor from "./custom/Cursor";
 
-export {Home,Image,Title,TrackingEyes,HoverEffect,Tilt,Cursor}
+import VedioPlayer from "./VideoPlayer/VideoPlayer";
+
+export {
+  Home,
+  Image,
+  Title,
+  TrackingEyes,
+  HoverEffect,
+  Tilt,
+  Cursor,
+  VedioPlayer,
+};

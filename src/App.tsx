@@ -5,6 +5,7 @@ import { Suspense, lazy } from "react";
 
 const Cursor = lazy(() => import('./component/custom/Cursor'))
 const TrackingEyes = lazy(() => import('./component/TrackingEyes/TrackingEyes'))
+const VideoPlayer = lazy(()=> import('./component/VideoPlayer/VideoPlayer'))
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/trackingEyes" element={<TrackingEyes />} />
         <Route path="/Tilt" element={<Tilt />} />
         <Route path="/Cursor" element={<Cursor />} />
+        <Route path="/videoPlayEffect" element={<VideoPlayer />} />
       </Routes>
       </Suspense>
   );
