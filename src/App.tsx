@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router";
-import { Home, HoverEffect, Tilt } from "./component";
+import { Avatar, Home, HoverEffect, Tilt } from "./component";
 import Navigation from "./component/Navigation";
 import { Suspense, lazy } from "react";
 
@@ -18,6 +18,7 @@ const App = () => {
         <Route path="/Tilt" element={<Tilt />} />
         <Route path="/Cursor" element={<Cursor />} />
         <Route path="/videoPlayEffect" element={<VideoPlayer />} />
+        <Route path="/avatar" element={<Avatar />} />
       </Routes>
       </Suspense>
   );

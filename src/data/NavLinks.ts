@@ -33,6 +33,11 @@ export const NavLinks = [
       path:"/videoPlayEffect",
       Title: "Video Play Effect",
     },
+    {
+      id:randomId(),
+      path:"/avatar",
+      Title: "Avatar",
+    },
 ]
         
       

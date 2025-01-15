@@ -12,6 +12,8 @@ import Cursor from "./custom/Cursor";
 
 import VedioPlayer from "./VideoPlayer/VideoPlayer";
 
+import Avatar from "./avatar/Avatar"
+
 export {
   Home,
   Image,
@@ -21,4 +23,5 @@ export {
   Tilt,
   Cursor,
   VedioPlayer,
+  Avatar
 };
