@@ -14,6 +14,8 @@ import VedioPlayer from "./VideoPlayer/VideoPlayer";
 
 import Avatar from "./avatar/Avatar"
 
+import {Zoop} from "./zoop/Zoop"
+
 export {
   Home,
   Image,
@@ -23,5 +25,6 @@ export {
   Tilt,
   Cursor,
   VedioPlayer,
-  Avatar
+  Avatar,
+  Zoop
 };

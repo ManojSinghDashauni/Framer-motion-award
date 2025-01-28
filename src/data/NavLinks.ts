@@ -38,6 +38,11 @@ export const NavLinks = [
       path:"/avatar",
       Title: "Avatar",
     },
+    {
+      id:randomId(),
+      path:"/Zoop",
+      Title: "Zoop",
+    },
 ]
         
       
