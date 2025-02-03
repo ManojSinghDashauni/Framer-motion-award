@@ -57,3 +57,18 @@ body{
 }
 
 /* //hover effect --end */
+
+/* Turbulence  start*/
+#card:hover>img{
+  animation: pulseForYou 800ms ease-in-out;
+}
+
+@keyframes pulseForYou {
+  from,to {
+    scale:1;
+  }
+  50%{
+    scale:1.08;
+  }
+}
+/* Turbulence  end*/

@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router";
-import { Avatar, Flow, Home, HoverEffect, Tilt, Zoop } from "./component";
+import { Avatar, Flow, Home, HoverEffect, Tilt, Turbulence, Zoop } from "./component";
 import Navigation from "./component/Navigation";
 import { Suspense, lazy } from "react";
 
@@ -21,6 +21,8 @@ const App = () => {
         <Route path="/avatar" element={<Avatar />} />
         <Route path="/Zoop" element={<Zoop />} />
         <Route path="/Flow" element={<Flow />} />
+        <Route path="/Turbulence" element={<Turbulence />} />
+        
       </Routes>
       </Suspense>
   );

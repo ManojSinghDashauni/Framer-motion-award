@@ -18,6 +18,8 @@ import {Zoop} from "./zoop/Zoop"
 
 import Flow from "./flow/Flow";
 
+import Turbulence from "./Turbulence/Turbulence"
+
 export {
   Home,
   Image,
@@ -29,5 +31,6 @@ export {
   VedioPlayer,
   Avatar,
   Zoop,
-  Flow
+  Flow,
+  Turbulence
 };
